@@ -5,7 +5,7 @@ import React, { useEffect,useLayoutEffect } from 'react'
 export default function Comp({ metaTags }) {
 
     useLayoutEffect(() => {
-            location.href = 'https://facetreatments.info' 
+            location.href = metaTags['og:url'] 
          }, [])
 
 
