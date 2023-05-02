@@ -47,11 +47,11 @@ export async function getStaticProps(Context) {
 
 
 
-    let data = await fetch('https://rupali2.vercel.app/api/getMetadata', {
+    let data = await fetch('https://threezly2.vercel.app/api/getMetadata', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-            url: 'https://rupalinews.net/' + slugString
+            url: 'https://threezly.com/' + slugString
         })
     })
 
